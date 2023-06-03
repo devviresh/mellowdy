@@ -49,10 +49,10 @@ class _HomePageState extends State<HomePage> {
               SizedBox(width: 20.0),
             ],
           ),
-          SizedBox(height: 30.0),
           Expanded(child: ListView(
             physics: BouncingScrollPhysics(),
             children: [
+              SizedBox(height: 30.0),
               Padding(
                 padding: const EdgeInsets.only(left: 20.0),
                 child: Text(

@@ -27,7 +27,7 @@ class _LibraryPageState extends State<LibraryPage> {
               ),
               SquareButton(
                 onPressed: () {},
-                icon: Icon(Icons.mode_edit_outline_rounded,
+                icon: Icon(Icons.favorite_border_rounded,
                     size: 26.0, color: Colors.white),
               ),
             ],

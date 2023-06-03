@@ -33,11 +33,11 @@ class _SearchPageState extends State<SearchPage> {
               ),
             ],
           ),
-          SizedBox(height: 30.0),
           Expanded(
               child: ListView(
             physics: BouncingScrollPhysics(),
             children: [
+              SizedBox(height: 30.0),
               Text('Recent favourites',
                   style:
                       TextStyle(fontSize: 28.0, fontWeight: FontWeight.w500)),
